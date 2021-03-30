@@ -1,0 +1,9 @@
+<launch>
+
+<node pkg="control_car" type="control_pose" name="control_pose" output="screen"/>
+<!--<node pkg="control_car" type="feedback_control" name="feedback_control" output="screen"/>-->
+<param name="target_x" type="double" value="0"/>
+<param name="target_y" type="double" value="0"/>
+<param name="target_deg" type="double" value="0"/>
+
+</launch>
